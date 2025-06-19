@@ -33,7 +33,7 @@
         <!-- 模块1 -->
         <FrameLayout
             android:layout_width="0dp"
-            android:layout_height="130dp"
+            android:layout_height="160dp"
             android:layout_columnWeight="1"
             android:layout_margin="8dp">
 
@@ -43,7 +43,7 @@
         <!-- 模块2 -->
         <FrameLayout
             android:layout_width="0dp"
-            android:layout_height="130dp"
+            android:layout_height="160dp"
             android:layout_columnWeight="1"
             android:layout_margin="8dp">
 
@@ -52,7 +52,7 @@
 
         <FrameLayout
             android:layout_width="0dp"
-            android:layout_height="130dp"
+            android:layout_height="160dp"
             android:layout_columnWeight="1"
             android:layout_margin="8dp">
             <include layout="@layout/hjccl_module_item"/>
@@ -61,7 +61,7 @@
         <!-- 模块4 -->
         <FrameLayout
             android:layout_width="0dp"
-            android:layout_height="130dp"
+            android:layout_height="160dp"
             android:layout_columnWeight="1"
             android:layout_margin="8dp">
             <include layout="@layout/hjccl_module_item"/>
@@ -101,15 +101,40 @@
                 android:progress="30"
                 android:max="100"
                 android:layout_marginTop="25dp"/>
-
-
-
-
         </RelativeLayout>
+    </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:paddingHorizontal="16dp"
+        android:background="@drawable/bg_rounded_grey">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="游戏规则"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="✔xxxx"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="ggggg"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="ddddd"/>
 
     </LinearLayout>
+
 
 
 </LinearLayout>
