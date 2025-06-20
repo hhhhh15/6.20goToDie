@@ -23,23 +23,24 @@
     <!-- 模块1 -->
     <include
         android:id="@+id/hjdj_module1"
-        layout="@layout/hjdj_module_item" />
+        layout="@layout/lucrative_short_drama_module_item" />
 
     <!-- 模块2 -->
     <include
         android:id="@+id/hjdj_module2"
-        layout="@layout/hjdj_module_item" />
+        layout="@layout/lucrative_short_drama_module_item" />
 
     <!-- 模块3 -->
     <include
         android:id="@+id/hjdj_module3"
-        layout="@layout/hjdj_module_item" />
+        layout="@layout/lucrative_short_drama_module_item" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="39dp"
         android:background="#FFFFFF"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
 
       <TextView
           android:id="@+id/middleText1"
@@ -75,7 +76,7 @@
 
       <include
           android:id="@+id/module4"
-          layout="@layout/hjdj_module_item1"
+          layout="@layout/lucrative_short_drama_module_item1"
           android:layout_width="0dp"
           android:layout_height="wrap_content"
           android:layout_weight="1"
@@ -83,7 +84,7 @@
 
       <include
           android:id="@+id/module5"
-          layout="@layout/hjdj_module_item1"
+          layout="@layout/lucrative_short_drama_module_item1"
           android:layout_width="0dp"
           android:layout_height="wrap_content"
           android:layout_weight="1"
@@ -99,7 +100,7 @@
 
       <include
           android:id="@+id/module6"
-          layout="@layout/hjdj_module_item2"
+          layout="@layout/lucrative_short_drama_module_item2"
           android:layout_width="0dp"
           android:layout_height="match_parent"
           android:layout_weight="1"
@@ -107,7 +108,7 @@
 
       <include
           android:id="@+id/module7"
-          layout="@layout/hjdj_module_item1"
+          layout="@layout/lucrative_short_drama_module_item1"
           android:layout_width="0dp"
           android:layout_height="wrap_content"
           android:layout_weight="1"

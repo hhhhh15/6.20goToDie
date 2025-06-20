@@ -37,7 +37,7 @@
             android:layout_columnWeight="1"
             android:layout_margin="8dp">
 
-            <include layout="@layout/hjccl_module_item"/>
+            <include layout="@layout/guess_good_play_module_item"/>
         </FrameLayout>
 
         <!-- 模块2 -->
@@ -47,7 +47,7 @@
             android:layout_columnWeight="1"
             android:layout_margin="8dp">
 
-            <include layout="@layout/hjccl_module_item"/>
+            <include layout="@layout/guess_good_play_module_item"/>
         </FrameLayout>
 
         <FrameLayout
@@ -55,7 +55,7 @@
             android:layout_height="160dp"
             android:layout_columnWeight="1"
             android:layout_margin="8dp">
-            <include layout="@layout/hjccl_module_item"/>
+            <include layout="@layout/guess_good_play_module_item"/>
         </FrameLayout>
 
         <!-- 模块4 -->
@@ -64,7 +64,7 @@
             android:layout_height="160dp"
             android:layout_columnWeight="1"
             android:layout_margin="8dp">
-            <include layout="@layout/hjccl_module_item"/>
+            <include layout="@layout/guess_good_play_module_item"/>
         </FrameLayout>
 
     </GridLayout>
