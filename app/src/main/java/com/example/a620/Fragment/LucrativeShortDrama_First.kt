@@ -42,10 +42,16 @@ class LucrativeShortDrama_First :Fragment() {
         binding.hjdjModule3.icon.setOnClickListener {
             jumpToEarnGoldActivity("suspense")
         }
+<<<<<<< HEAD
 
     }
 
     private fun jumpToEarnGoldActivity(type: String) {//带参数跳转
+=======
+    }
+
+    private fun jumpToEarnGoldActivity(type: String) {
+>>>>>>> ebdb00013039b8c84cb686180b63100d7a966760
         val intent = Intent(requireContext(), EarnGoldDrama::class.java)
         intent.putExtra("question_type", type)
         startActivity(intent)

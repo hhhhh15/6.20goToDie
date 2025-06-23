@@ -31,6 +31,7 @@ class EarnGoldDrama:AppCompatActivity() {
             binding.optionDButton.text = "D. ${data.answerD}"
             binding.answerTextView.text = "正确答案：${data.answer}"
         }
+<<<<<<< HEAD
         binding.earnGoldNextQuestion.setOnClickListener {
             viewModel.goToNextQuestion()
         }
@@ -38,4 +39,10 @@ class EarnGoldDrama:AppCompatActivity() {
         viewModel.fetchData(questionType)
     }
 
+=======
+
+        // 根据传入类型调用对应接口或数据
+        viewModel.fetchData(questionType)
+    }
+>>>>>>> ebdb00013039b8c84cb686180b63100d7a966760
 }

@@ -1,4 +1,5 @@
 [versions]
+<<<<<<< HEAD
 agp = "8.2.2"
 kotlin = "2.0.21" # 保留不动
 coreKtx = "1.12.0"
@@ -8,6 +9,17 @@ espressoCore = "3.6.1"
 lifecycleRuntimeKtx = "2.6.2"
 activityCompose = "1.7.2"
 composeBom = "2023.01.00"
+=======
+agp = "8.10.0"
+kotlin = "2.0.21"
+coreKtx = "1.16.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+lifecycleRuntimeKtx = "2.9.1"
+activityCompose = "1.10.1"
+composeBom = "2024.09.00"
+>>>>>>> ebdb00013039b8c84cb686180b63100d7a966760
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -17,7 +29,10 @@ androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-co
 androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
 androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+<<<<<<< HEAD
 
+=======
+>>>>>>> ebdb00013039b8c84cb686180b63100d7a966760
 androidx-ui = { group = "androidx.compose.ui", name = "ui" }
 androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
 androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
@@ -30,3 +45,7 @@ androidx-material3 = { group = "androidx.compose.material3", name = "material3" 
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+<<<<<<< HEAD
+=======
+
+>>>>>>> ebdb00013039b8c84cb686180b63100d7a966760

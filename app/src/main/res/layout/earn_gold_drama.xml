@@ -162,7 +162,10 @@
     </FrameLayout>
 
     <Button
+<<<<<<< HEAD
         android:id="@+id/earn_gold_next_question"
+=======
+>>>>>>> ebdb00013039b8c84cb686180b63100d7a966760
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:layout_margin="20dp"
