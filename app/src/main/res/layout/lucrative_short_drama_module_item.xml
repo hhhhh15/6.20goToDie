@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="113dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginStart="20dp"
+    android:background="@drawable/bg_with_border"
+    android:padding="8dp">
+
+    <!-- 模块文本（底部） -->
+    <TextView
+        android:id="@+id/moduleText"
+        android:layout_width="208dp"
+        android:layout_height="28dp"
+        android:layout_gravity="start|bottom"
+        android:fontFamily="sans-serif"
+        android:text="10题/每题10分"
+        android:textColor="#000000"
+        android:textSize="13dp" />
+
+    <!-- 浮动标签（上层） -->
+    <TextView
+        android:id="@+id/tag_name"
+        android:layout_width="73dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:background="#E6FFFFFF"
+        android:gravity="center_vertical"
+        android:paddingStart="4dp"
+        android:text="文本1"
+        android:textColor="#000000"
+        android:textSize="20sp"
+/>
+
+    <!-- 图标（右上角） -->
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="41dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end|center_vertical"
+        android:src="@drawable/baseline_keyboard_arrow_right_24"/>
+
+</FrameLayout>

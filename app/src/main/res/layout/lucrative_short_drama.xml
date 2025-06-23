@@ -1,0 +1,122 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+  <LinearLayout
+      android:orientation="vertical"
+      android:background="#FFFFFF"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <!-- 顶部标题 -->
+    <TextView
+        android:id="@+id/topText"
+        android:layout_width="180dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="文本1"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <!-- 模块1 -->
+    <include
+        android:id="@+id/hjdj_module1"
+        layout="@layout/lucrative_short_drama_module_item" />
+
+    <!-- 模块2 -->
+    <include
+        android:id="@+id/hjdj_module2"
+        layout="@layout/lucrative_short_drama_module_item" />
+
+    <!-- 模块3 -->
+    <include
+        android:id="@+id/hjdj_module3"
+        layout="@layout/lucrative_short_drama_module_item" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+      <TextView
+          android:id="@+id/middleText1"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_marginBottom="10dp"
+          android:layout_weight="1"
+          android:fontFamily="sans-serif-medium"
+          android:paddingStart="8dp"
+          android:text="文本2"
+          android:textColor="#000000"
+          android:textSize="11.5sp" />
+
+      <TextView
+          android:id="@+id/middleText2"
+          android:layout_width="225dp"
+          android:layout_height="match_parent"
+          android:layout_marginBottom="10dp"
+          android:fontFamily="sans-serif-medium"
+          android:paddingStart="8dp"
+          android:text="文本2"
+          android:textColor="#000000"
+          android:textSize="11.5sp" />
+    </LinearLayout>
+
+    <!-- 横排两个模块 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:padding="16dp">
+
+      <include
+          android:id="@+id/module4"
+          layout="@layout/lucrative_short_drama_module_item1"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:layout_marginEnd="8dp"/>
+
+      <include
+          android:id="@+id/module5"
+          layout="@layout/lucrative_short_drama_module_item1"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:padding="16dp">
+
+      <include
+          android:id="@+id/module6"
+          layout="@layout/lucrative_short_drama_module_item2"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:layout_marginEnd="8dp"/>
+
+      <include
+          android:id="@+id/module7"
+          layout="@layout/lucrative_short_drama_module_item1"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+
+
+  </LinearLayout>
+
+</ScrollView>
